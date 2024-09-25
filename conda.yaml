@@ -1,12 +1,12 @@
-name: test_env
+name: furlanp-test-env
 channels:
-  - conda-forge
-dependencies:
-  - python=3.11.9
-  - numpy=2.0.0
-  - pip=24.1.2
-  - scikit-learn=1.5.1
-  - pip:
-    - azureml-defaults==1.53.0
-    - inference-schema[numpy-support]==1.5.1
-    - joblib==1.4.2
+  - defaults
+dependencies: 
+  - python=3.11
+  - pip
+  - pip: 
+    - pandas 
+    - numpy
+    - scikit-learn
+    - joblib
+    - azureml-inference-server-http
