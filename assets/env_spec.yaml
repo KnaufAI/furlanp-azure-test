@@ -1,4 +1,3 @@
-name: furlanp-test-env
 channels:
   - defaults
 dependencies: 
@@ -10,3 +9,5 @@ dependencies:
     - scikit-learn
     - joblib
     - azureml-inference-server-http
+    - azure-identity
+    - azure-ai-ml
